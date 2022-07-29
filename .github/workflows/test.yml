@@ -91,7 +91,6 @@ jobs:
         run: |
           ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-boot-wait.json
           ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-acpid.json
-          ./redpill_tool_chain.sh add https://github.com/tossp/redpill-tool-chain/raw/master/extensions/redpill-virtio.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/vmxnet3/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/mptsas/rpext-index.json
           ./redpill_tool_chain.sh add https://github.com/pocopico/rp-ext/blob/main/mpt3sas/rpext-index.json
